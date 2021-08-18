@@ -281,4 +281,7 @@ nav ul li a:hover {
     opacity: 1;
     transition: all .5s;
   }
+  .logo {
+    width: 100%;
+  }
 }
