@@ -203,6 +203,19 @@ nav ul{
     border: 0;
 }
 
+#toggle, .label{
+    display: none;
+}
+
+.fa-bars {
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    width: 70px;
+    color: white;
+    z-index: 1;
+}
+
     @media only screen and (max-width: 700px){
         .logogrid{
             display: block;
@@ -240,10 +253,12 @@ nav ul{
 
         nav ul{
             display: block;
+            z-index: 10;
         }
 
         .banner-text{
-            position: static;
+            position: absolute;
+            top: 40%;
             h1{
                 margin: 0;
             }
@@ -263,5 +278,20 @@ nav ul{
 
         .contactbanner{
             background-image: url(../images/contact-mobile.jpg);
+        }
+
+        .label {
+            display: block !important;
+            cursor: pointer;
+        }
+
+        nav ul{
+            display: none;
+        }
+
+        #toggle:checked+ul{
+            display: block;
+            opacity: 1;
+            transition: all .5s;
         }
     }
