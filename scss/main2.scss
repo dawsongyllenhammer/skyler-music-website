@@ -112,14 +112,14 @@ nav ul{
 
     .contactme{
         text-align: center;
-        width: 50%;
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
         position: relative;
         top: 0px;
 
         h1{
-            font-size: 60px;
+            font-size: 50px;
         }
         a{
             text-decoration: none;
@@ -244,5 +244,21 @@ nav ul{
 
         .banner-text{
             top: 60px;
+        }
+
+        .lessons-pic{
+            width: 100%;
+        }
+
+        .contactme{
+            font-size: 10px;
+            h1{
+                font-size: 40px;
+            }
+            width: 90%;
+        }
+
+        .contactbanner{
+            background-image: url(../images/contact-mobile.jpg);
         }
     }
