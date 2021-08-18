@@ -260,10 +260,12 @@ nav ul li a:hover {
   .banner-text {
     position: absolute;
     top: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .banner-text h1 {
     margin: 0;
-    font-size: 60px;
+    font-size: 70px;
   }
   .lessons-pic {
     width: 100%;
