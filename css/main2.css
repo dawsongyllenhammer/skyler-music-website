@@ -219,12 +219,11 @@ nav ul li a:hover {
   .band-p {
     display: none;
   }
-  .banner-1 {
-    background-image: url(../images/skyler-mobile-gif.gif);
-    width: 100% 100%;
+  .banner1 {
+    background-image: url(../images/skyler-mobile-gif.gif) !important;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: scroll !important;
   }
   .aboutme {
