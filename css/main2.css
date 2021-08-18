@@ -236,7 +236,7 @@ nav ul li a:hover {
     display: block;
   }
   .banner-text {
-    top: 60px;
+    position: static;
   }
   .lessons-pic {
     width: 100%;
