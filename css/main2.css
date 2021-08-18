@@ -216,4 +216,7 @@ nav ul li a:hover {
     width: 100%;
     padding-top: 60%;
   }
+  .band-p {
+    display: none;
+  }
 }
