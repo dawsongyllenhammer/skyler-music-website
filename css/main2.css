@@ -232,4 +232,10 @@ nav ul li a:hover {
   .header {
     font-size: 40px;
   }
+  nav ul {
+    display: block;
+  }
+  .banner-text {
+    top: 60px;
+  }
 }
