@@ -238,7 +238,13 @@ nav ul li a:hover {
   padding-top: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 930px) {
+  nav ul li {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
   .logogrid {
     display: block;
     width: 60%;
@@ -247,7 +253,7 @@ nav ul li a:hover {
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 700px) {
   .gallerygrid {
     display: grid;
     grid-template-columns: 1fr;
@@ -275,6 +281,9 @@ nav ul li a:hover {
   nav ul {
     display: block;
     z-index: 10;
+  }
+  nav ul li {
+    font-size: 25px;
   }
   .banner-text {
     position: absolute;
