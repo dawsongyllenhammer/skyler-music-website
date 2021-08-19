@@ -64,7 +64,7 @@ iframe {
 
 nav ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   text-align: center;
   margin: 0;
@@ -152,6 +152,21 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
+.gallerygrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.g-item {
+  margin: 5px;
+}
+
+.g-item img {
+  width: 100%;
+  outline: 10px double #99a57b;
+  outline-offset: -10px;
+}
+
 .header {
   font-size: 60px;
   text-align: center;
@@ -233,6 +248,10 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 740px) {
+  .gallerygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .resp-container {
     width: 100%;
     padding-top: 60%;

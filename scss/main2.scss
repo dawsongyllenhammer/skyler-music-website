@@ -73,7 +73,7 @@ nav ul{
     // top: 0;
     // left: 0;
     // right: 0;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     text-align: center;
     margin: 0;
@@ -155,6 +155,22 @@ nav ul{
         border-radius: 50%;
         transition: 0.5s;
     }
+
+    .gallerygrid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .g-item{
+        margin: 5px;
+        img{
+            width: 100%;
+            outline: 10px double $main-color;
+            outline-offset: -10px;
+            
+        }
+    }
+
     .header{    
         font-size: 60px;
         text-align: center;
@@ -234,6 +250,12 @@ nav ul{
     }
 
     @media only screen and (max-width: 740px){
+        
+        .gallerygrid{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
         .resp-container{
             width: 100%;
             padding-top: 60%;
