@@ -296,9 +296,7 @@ nav ul li{
         }
 
         nav ul{
-            // display: block;
-            display: flex;
-            flex: 1;
+            display: block;
             z-index: 100;
             li{
                 font-size: 25px;
@@ -309,7 +307,7 @@ nav ul li{
 
         .banner-text{
             position: absolute;
-            top: 50%;
+            top: 300px;
             margin-left: auto;
             margin-right: auto;
             h1{
