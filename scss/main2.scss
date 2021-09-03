@@ -229,11 +229,10 @@ nav ul{
 
 .fa-bars {
     position: absolute;
-    top: 1rem;
+    top: 0px;
     right: .5rem;
     width: 70px;
     color: white;
-    z-index: 1;
 }
 
 .mobile-top{
@@ -281,6 +280,7 @@ nav ul li{
             background-size: cover;
             background-position: center;
             background-attachment: scroll !important;
+            position: relative;
         }
 
         .aboutme{
@@ -291,17 +291,25 @@ nav ul li{
             font-size: 40px;
         }
 
+        nav{
+            z-index: 100;
+        }
+
         nav ul{
-            display: block;
-            z-index: 10;
+            // display: block;
+            display: flex;
+            flex: 1;
+            z-index: 100;
             li{
                 font-size: 25px;
+                text-shadow: 0px 0px 20px black;
             }
         }
 
+
         .banner-text{
             position: absolute;
-            top: 40%;
+            top: 50%;
             margin-left: auto;
             margin-right: auto;
             h1{
