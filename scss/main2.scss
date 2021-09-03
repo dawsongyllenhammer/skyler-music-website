@@ -28,6 +28,10 @@ body{
     background-attachment: fixed;
 }
 
+.aboutme a{
+    color: $dark-color;
+}
+
 .contactbanner{
     background-image: url(../images/banner-pic-4.jpg);
     width: 100% 100%;
